@@ -13,7 +13,9 @@ const connect = function(data) {
     console.log(data);
   });
 
-
+  /*conn.on("connect", () => {
+conn.write("Move: up");
+  }) */
 
   // interpret incoming data as text
   conn.setEncoding("utf8");
